@@ -8,10 +8,14 @@
 - [Dependencies](#Dependencies)
 
 ## Screenshots
+* iOS
 
-| iOS  |  Android
-|---|--|
-| <video width="320" height="240" controls> <source src="screenshots/ios.mov" type="video/mp4"></video> | <video width="320" height="240" controls> <source src="screenshots/android.mov" type="video/mp4"></video>|
+https://user-images.githubusercontent.com/14888785/220392853-478d7c50-a5e7-4283-94b1-6514b7ddf045.mov
+
+* Android
+
+https://user-images.githubusercontent.com/14888785/220396064-4e8ad35f-378e-4cbc-a3fd-3dfe118c6d6b.mov
+
 
 ## Implementation Details
 
