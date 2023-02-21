@@ -24,11 +24,6 @@ https://user-images.githubusercontent.com/14888785/220396064-4e8ad35f-378e-4cbc-
 * `fvm` flutter version `3.3.9`
 
 
-## Requirements
-- flutter 3.3.9+
-- Swift 5.0+
-- iOS 15.0+
-
 ## Dependencies
 - [timelines](https://pub.dev/packages/timelines)
 - [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications)
