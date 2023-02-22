@@ -27,7 +27,6 @@ class MapWidget extends StatelessWidget {
       mapType: MapType.normal,
       onMapCreated: (GoogleMapController controller) async {
         _onMapCreated(controller);
-        _updateCamera(controller);
       },
       initialCameraPosition: CameraPosition(target: _driverPosition),
       circles: {
@@ -41,27 +40,5 @@ class MapWidget extends StatelessWidget {
         )
       },
     );
-  }
-
-  void _updateCamera(GoogleMapController? controller) async {
-    // final LatLng southwest = LatLng(
-    //   min(_deliveryPosition.latitude, _pickupPosition.latitude),
-    //   min(_deliveryPosition.longitude, _pickupPosition.longitude),
-    // );
-    //
-    // final LatLng northeast = LatLng(
-    //   max(_deliveryPosition.latitude, _pickupPosition.latitude),
-    //   max(_deliveryPosition.longitude, _pickupPosition.longitude),
-    // );
-    //
-    // LatLngBounds bounds = LatLngBounds(
-    //   southwest: southwest,
-    //   northeast: northeast,
-    // );
-    //
-    // // await controller.animateCamera(
-    // //   CameraUpdate.newLatLngBounds(bounds, 80),
-    // // );
-
   }
 }
